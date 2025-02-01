@@ -5,15 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication
-@RestController
-public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(exercise.Application.class, args);
-    }
+// BEGIN
 
-    @GetMapping("/about")
-    String home() {
-        return "Welcome to Hexlet!";
-    }
-}
+// END
