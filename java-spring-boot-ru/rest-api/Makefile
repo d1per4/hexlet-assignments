@@ -3,7 +3,7 @@ setup:
 	./gradlew build
 
 app:
-	./gradlew run
+	./gradlew bootRun --args='--spring.profiles.active=dev'
 
 clean:
 	./gradlew clean
